@@ -468,7 +468,7 @@ return a mutable copy, which could result in undesired behavior.
 *Important!*: Only a select few methods can be used in `withMutations` including
 `set`, `push` and `pop`. These methods can be applied directly against a
 persistent data-structure where other methods like `map`, `filter`, `sort`,
-and `splice` will always return new immutable data-structures and never mutate
+and `slice` will always return new immutable data-structures and never mutate
 a mutable collection.
 
 
